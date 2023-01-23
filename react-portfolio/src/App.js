@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Resume from './components/resume/Resume';
 import About from './components/about/About';
 import Header from './components/header/Header';

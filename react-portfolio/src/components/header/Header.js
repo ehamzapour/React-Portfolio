@@ -1,5 +1,5 @@
 import React from 'react';
-import './header.css';
+import './header.scss';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
