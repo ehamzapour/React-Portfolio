@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react";
-import React from "react";
+import { useEffect, useState } from 'react';
+import React from 'react';
 import './portfolio.scss';
-import { frontendPortfolio, backendPortfolio, fullstackPortfolio } from '../../index';
+import { frontendPortfolio, backendPortfolio, fullstackPortfolio } from './index';
+import PortfolioList from '../PortfolioList/PortfolioList';
 
 function Portfolio() {
     
@@ -19,7 +20,7 @@ function Portfolio() {
         },
         {
             id: 'fullstack',
-            title: 'Fullstack',
+            title: 'Full Stack',
         },
     ];
 
@@ -48,9 +49,10 @@ function Portfolio() {
             <h1>Portfolio</h1>
             <ul>
                 {list.map(item => (
-                    <portfolioList
+                    <PortfolioList
                         title={item.title}
-                        active={selected === item.id}
+                        active='true'
+                        // {selected === item.id}
                         setSelected={setSelected}
                         id={item.id}
                     />

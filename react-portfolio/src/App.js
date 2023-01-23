@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.scss';
 import Resume from './components/resume/Resume';
 import About from './components/about/About';
