@@ -15,7 +15,7 @@ function Contact() {
     return (
       <div className='contact' id='contact'>
         <div className='left'>
-        {/* image for contact section here */}
+        {/* image for contact section */}
         <img src='#' alt='contact photo'/>
         </div> 
         <div className='right'>
