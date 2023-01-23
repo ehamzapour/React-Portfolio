@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './about.scss';
 import { useEffect, useRef } from 'react';
 import { init } from 'ityped'
 
