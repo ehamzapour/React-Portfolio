@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.scss';
 import { useState } from 'react';
-// import { validateEmail } from '../../utils/helpers';
+
 
 function Contact() {
 
@@ -12,14 +12,11 @@ function Contact() {
         setMessage(true);
     }
 
+
     return (
       <div className='contact' id='contact'>
-        <div className='left'>
-        {/* image for contact section */}
-        <img src='#' alt='contact photo'/>
-        </div> 
         <div className='right'>
-            <h2>Contact</h2>
+            <h1>Contact</h1>
             <form onSubmit={handleSubmit}>
                 <input type='text' placeholder='Email'/>
                 <input type='text' placeholder='Name'/>

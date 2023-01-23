@@ -4,7 +4,7 @@ import './App.scss';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import Portfolio from './components/portfolio/Portfolio';
-// import Contact from './components/contact/Contact';
+import Contact from './components/contact/Contact';
 // import Footer from './components/footer/Footer';
 import { useState } from 'react';
 
@@ -19,9 +19,9 @@ function App() {
       <div className='sections'>
         <About/>
         <Portfolio/>
-        {/* <Contact/>
-        <Resume/>
-        <Footer/>   */}
+        <Contact/>
+        {/* <Resume/>
+        <Footer/>    */}
       </div>
       <div className='footer'>
         {/* <Footer/> */}
