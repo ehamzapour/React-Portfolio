@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-// import Resume from './components/resume/Resume';
+import Resume from './components/resume/Resume';
 import About from './components/about/About';
 import Header from './components/header/Header';
 import Portfolio from './components/portfolio/Portfolio';
@@ -20,8 +20,8 @@ function App() {
         <About/>
         <Portfolio/>
         <Contact/>
-        {/* <Resume/>
-        <Footer/>    */}
+        <Resume/>
+        {/* <Footer/> */}
       </div>
       <div className='footer'>
         {/* <Footer/> */}

@@ -5,10 +5,9 @@ function Resume() {
 
     return (
         <div className='resume' id='resume'>
-            <h2> Resume </h2>
+            <h1> Resume </h1>
             <p> Download <a href='#' targer='_blank' rel='noreferrer'>Resume</a></p>
-            <h3>Full Stack Development</h3>
-            <p> Experienced in:</p>
+            <h3>Proficiencies:</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
