@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    background-color: #344E41;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+
+    .icon {
+        font-size: 25px;
+        color: white;
+    }
+
+    ul {
+        font-size: 20px;
+
+        li {
+            display: inline-block;
+
+            &:hover {
+                color: #ffd3ba;
+            }
+        }
+    }
+}
