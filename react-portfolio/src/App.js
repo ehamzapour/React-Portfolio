@@ -23,9 +23,6 @@ function App() {
         <Resume/>
         <Footer/>
       </div>
-      <div className='footer'>
-        {/* <Footer/> */}
-      </div>
     </div>
   );
 }
