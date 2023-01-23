@@ -3,7 +3,7 @@ import './App.scss';
 // import Resume from './components/resume/Resume';
 import About from './components/about/About';
 import Header from './components/header/Header';
-// import Portfolio from './components/portfolio/Portfolio';
+import Portfolio from './components/portfolio/Portfolio';
 // import Contact from './components/contact/Contact';
 // import Footer from './components/footer/Footer';
 import { useState } from 'react';
@@ -18,10 +18,10 @@ function App() {
       <Header introOpen={introOpen} setIntroOpen={setIntroOpen}/>
       <div className='sections'>
         <About/>
-        {/* <Portfolio/>
-        <Contact/>
+        <Portfolio/>
+        {/* <Contact/>
         <Resume/>
-        <Footer/>  */}
+        <Footer/>   */}
       </div>
       <div className='footer'>
         {/* <Footer/> */}

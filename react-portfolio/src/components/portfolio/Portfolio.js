@@ -51,8 +51,7 @@ function Portfolio() {
                 {list.map(item => (
                     <PortfolioList
                         title={item.title}
-                        active='true'
-                        // {selected === item.id}
+                        active={selected === item.id}
                         setSelected={setSelected}
                         id={item.id}
                     />
