@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 // import Resume from './components/resume/Resume';
-// import About from './components/about/About';
+import About from './components/about/About';
 import Header from './components/header/Header';
 // import Portfolio from './components/portfolio/Portfolio';
 // import Contact from './components/contact/Contact';
@@ -17,11 +17,11 @@ function App() {
     <div className="app">
       <Header introOpen={introOpen} setIntroOpen={setIntroOpen}/>
       <div className='sections'>
-        {/* <About/>
-        <Portfolio/>
+        <About/>
+        {/* <Portfolio/>
         <Contact/>
         <Resume/>
-        <Footer/> */}
+        <Footer/>  */}
       </div>
       <div className='footer'>
         {/* <Footer/> */}

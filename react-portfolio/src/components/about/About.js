@@ -9,9 +9,9 @@ function About() {
   useEffect (()=>{
     init(textRef.current, {
       showCursor: true,
-      backDelay: 1500,
-      backSpeed: 60,
-      strings: ['marketer', 'leader', 'full stack developer', 'badass'],
+      backDelay: 1600,
+      backSpeed: 50,
+      strings: ['Backend', 'Frontend', 'Full Stack' ],
     });
 
   }, []);
@@ -20,16 +20,15 @@ function About() {
     <div className='about' id='about'>
       <div className='left'>
         <div className='imgContainer'>
-          {/* add profile pic here */}
-          <img src='#' alt='user profile pic'/>
+          <img src='assets/ProfilePic2.jpg' alt='user profile pic'/>
         </div>
       </div>
       <div className='right'>
         <div className='wrapper'>
-          <h2>Hi, I'm</h2>
+          <h2>Hi! I'm</h2>
           <h1>Elham Hamzapour</h1>
           <h3><span ref={textRef}></span> Developer</h3>
-          <p>BIO ABOUT ME</p>
+          <p>I am a Full-Stack Web Developer student at Vanderbilt Bootcamp. I am excited to start this new journey in the web world. Please see my projects and resume below!</p>
         </div>
       </div>
     </div>
