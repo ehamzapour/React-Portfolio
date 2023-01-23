@@ -1,5 +1,5 @@
-import React from 'react'
-import './header.css'
+import React from 'react';
+import './header.css';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
@@ -18,7 +18,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className='rightHeader'>
+            <div className='right'>
                 <ul>
                     <li><a href='#about'>About Me</a></li>
                     <li><a href='#portfolio'>Portfolio</a></li>
