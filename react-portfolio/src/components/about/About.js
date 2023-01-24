@@ -2,6 +2,7 @@ import React from 'react';
 import './about.scss';
 import { useEffect, useRef } from 'react';
 import { init } from 'ityped'
+import img from './images/ProfilePic2.jpg';
 
 function About() {
   const textRef = useRef();
@@ -20,7 +21,7 @@ function About() {
     <div className='about' id='about'>
       <div className='left'>
         <div className='imgContainer'>
-          <img src='assets/ProfilePic2.jpg' alt='user profile pic'/>
+        <img src={img}  alt='user profile pic'/>
         </div>
       </div>
       <div className='right'>
