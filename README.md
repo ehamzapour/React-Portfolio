@@ -20,7 +20,7 @@ This application was created to build a portfolio using React. The portfolio dis
 Email: ehamzapour@gmail.com
 
 ## Screenshot
-![Portfolio](./react-portfolio/public/assets/portfolioscreenshot.png)
+![Portfolio](./react-portfolio/src/components/portfolio/assets/portfolioscreenshot.png)
 
 ## Deployed Link
 Couldn't deploy link now, will deploy later. 
