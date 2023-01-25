@@ -1,14 +1,24 @@
+import img1 from './assets/chefrosetta.png';
+import img2 from './assets/WeatherDashboard.png';
+import img3 from './assets/readme.gif';
+import img4 from './assets/employeetracker.png';
+import img5 from './assets/portresort.png';
+import img6 from './assets/animesenpai.png';
+
+
+
+
 export const frontendPortfolio = [
     {
         id: 1,
         title: 'Chef Rosetta',
-        img: 'assets/chefrosetta.png',
+        img: (img1),
         url: 'https://ehamzapour.github.io/Recipes-Translator/'
     },
     {
         id: 2,
         title: 'Weather Dashboard',
-        img: 'assets/WeatherDashboard.png',
+        img: (img2),
         url: 'https://ehamzapour.github.io/Your-Daily-Weather/'
     },
 ]
@@ -17,13 +27,13 @@ export const backendPortfolio = [
     {
         id: 3,
         title: 'ReadMe Generator',
-        img: 'assets/readme.gif',
+        img: (img3),
         url: 'https://github.com/ehamzapour/ProReadMe'
     },
     {
         id: 4,
         title: 'Employee Tracker',
-        img: 'assets/employeetracker.png',
+        img: (img4),
         url: 'https://github.com/ehamzapour/My-Employee-Tracker'
     },
     
@@ -34,13 +44,13 @@ export const fullstackPortfolio = [
     {
         id: 5,
         title: 'The Port Resort',
-        img: 'assets/portresort.png',
+        img: (img5),
         url: 'https://github.com/cmash93/The-Port-Resort'
     },
     {
         id: 6,
         title: 'Anime Reviews',
-        img: 'assets/comingsoonn.jpeg',
-        url: 'https://github.com/cmash93/Anime-Reviews'
+        img: (img6),
+        url: 'https://github.com/cmash93/Anime-Senpai'
     }
 ]
