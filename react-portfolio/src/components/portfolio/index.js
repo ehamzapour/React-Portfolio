@@ -51,6 +51,6 @@ export const fullstackPortfolio = [
         id: 6,
         title: 'Anime Reviews',
         img: (img6),
-        url: 'https://github.com/cmash93/Anime-Senpai'
+        url: 'https://anime-senpai.herokuapp.com/'
     }
 ]
