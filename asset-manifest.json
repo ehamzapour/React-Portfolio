@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.894a8544.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.d7934512.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.d7934512.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.a295af5b.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.a295af5b.js.map",
+    "static/js/2.7ad424d6.chunk.js": "/React-Portfolio/static/js/2.7ad424d6.chunk.js",
+    "static/js/2.7ad424d6.chunk.js.map": "/React-Portfolio/static/js/2.7ad424d6.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.894a8544.chunk.css.map": "/React-Portfolio/static/css/main.894a8544.chunk.css.map",
+    "static/js/2.7ad424d6.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.7ad424d6.chunk.js.LICENSE.txt",
+    "static/media/ProfilePic2.a96d3a19.jpg": "/React-Portfolio/static/media/ProfilePic2.a96d3a19.jpg",
+    "static/media/WeatherDashboard.a734ce6c.png": "/React-Portfolio/static/media/WeatherDashboard.a734ce6c.png",
+    "static/media/animesenpai.e1ac60ac.png": "/React-Portfolio/static/media/animesenpai.e1ac60ac.png",
+    "static/media/chefrosetta.633e602f.png": "/React-Portfolio/static/media/chefrosetta.633e602f.png",
+    "static/media/employeetracker.3f955bdd.png": "/React-Portfolio/static/media/employeetracker.3f955bdd.png",
+    "static/media/portresort.d6bc861f.png": "/React-Portfolio/static/media/portresort.d6bc861f.png",
+    "static/media/readme.a88db6e2.gif": "/React-Portfolio/static/media/readme.a88db6e2.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a295af5b.js",
+    "static/js/2.7ad424d6.chunk.js",
+    "static/css/main.894a8544.chunk.css",
+    "static/js/main.d7934512.chunk.js"
+  ]
+}
