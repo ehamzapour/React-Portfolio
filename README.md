@@ -23,4 +23,4 @@ Email: ehamzapour@gmail.com
 ![Portfolio](./react-portfolio/src/components/portfolio/assets/portfolioscreenshot.png)
 
 ## Deployed Link
-Couldn't deploy link now, will deploy later. 
+https://ehamzapour.github.io/React-Portfolio/
