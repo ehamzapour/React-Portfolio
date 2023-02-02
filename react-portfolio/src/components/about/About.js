@@ -29,7 +29,7 @@ function About() {
           <h2>Hi! I'm</h2>
           <h1>Elham Hamzapour</h1>
           <h3><span ref={textRef}></span> Developer</h3>
-          <p>I am a Full-Stack Web Developer student at Vanderbilt Bootcamp. I am excited to start this new journey in the web world. Please see my projects and resume below!</p>
+          <p>Recent full-stack web developer graduate with a passion for building web applications with front-end and back-end software. An efficient learner, team-oriented, result driven individual with more than ten years experience in customer service. I am currently working on projects to add to my portfolio and looking forward to bringing that passion to a full-time role.</p>
         </div>
       </div>
     </div>
